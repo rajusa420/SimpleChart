@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAF30A21C72B52000FB01DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30A11C72B52000FB01DC /* main.m */; };
+		1EAF30A51C72B52000FB01DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30A41C72B52000FB01DC /* AppDelegate.m */; };
+		1EAF30A81C72B52000FB01DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30A71C72B52000FB01DC /* FirstViewController.m */; };
+		1EAF30AB1C72B52000FB01DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30AA1C72B52000FB01DC /* SecondViewController.m */; };
+		1EAF30AE1C72B52000FB01DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF30AC1C72B52000FB01DC /* Main.storyboard */; };
+		1EAF30B01C72B52000FB01DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF30AF1C72B52000FB01DC /* Assets.xcassets */; };
+		1EAF30B31C72B52000FB01DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAF30B11C72B52000FB01DC /* LaunchScreen.storyboard */; };
+		1EAF30C71C72B5B600FB01DC /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30BB1C72B5B600FB01DC /* DateHelper.m */; };
+		1EAF30C81C72B5B600FB01DC /* DoubleChartPointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30BD1C72B5B600FB01DC /* DoubleChartPointValue.m */; };
+		1EAF30C91C72B5B600FB01DC /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30BF1C72B5B600FB01DC /* SimpleBarChart.m */; };
+		1EAF30CA1C72B5B600FB01DC /* SimpleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30C11C72B5B600FB01DC /* SimpleChart.m */; };
+		1EAF30CB1C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30C31C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.m */; };
+		1EAF30CC1C72B5B600FB01DC /* SimpleChartPointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30C61C72B5B600FB01DC /* SimpleChartPointValue.m */; };
+		1EAF30CF1C72B62A00FB01DC /* CoreGraphicsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30CE1C72B62A00FB01DC /* CoreGraphicsHelper.m */; };
+		1EAF30D21C72B64C00FB01DC /* AppFormatters.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF30D11C72B64C00FB01DC /* AppFormatters.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EAF309D1C72B52000FB01DC /* SimpleChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAF30A11C72B52000FB01DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EAF30A31C72B52000FB01DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EAF30A41C72B52000FB01DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EAF30A61C72B52000FB01DC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1EAF30A71C72B52000FB01DC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1EAF30A91C72B52000FB01DC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1EAF30AA1C72B52000FB01DC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1EAF30AD1C72B52000FB01DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EAF30AF1C72B52000FB01DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EAF30B21C72B52000FB01DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EAF30B41C72B52000FB01DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAF30BA1C72B5B600FB01DC /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		1EAF30BB1C72B5B600FB01DC /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		1EAF30BC1C72B5B600FB01DC /* DoubleChartPointValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleChartPointValue.h; sourceTree = "<group>"; };
+		1EAF30BD1C72B5B600FB01DC /* DoubleChartPointValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleChartPointValue.m; sourceTree = "<group>"; };
+		1EAF30BE1C72B5B600FB01DC /* SimpleBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBarChart.h; sourceTree = "<group>"; };
+		1EAF30BF1C72B5B600FB01DC /* SimpleBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBarChart.m; sourceTree = "<group>"; };
+		1EAF30C01C72B5B600FB01DC /* SimpleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleChart.h; sourceTree = "<group>"; };
+		1EAF30C11C72B5B600FB01DC /* SimpleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleChart.m; sourceTree = "<group>"; };
+		1EAF30C21C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleChartCurrentValueOverlay.h; sourceTree = "<group>"; };
+		1EAF30C31C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleChartCurrentValueOverlay.m; sourceTree = "<group>"; };
+		1EAF30C41C72B5B600FB01DC /* SimpleChartLabelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleChartLabelProvider.h; sourceTree = "<group>"; };
+		1EAF30C51C72B5B600FB01DC /* SimpleChartPointValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleChartPointValue.h; sourceTree = "<group>"; };
+		1EAF30C61C72B5B600FB01DC /* SimpleChartPointValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleChartPointValue.m; sourceTree = "<group>"; };
+		1EAF30CD1C72B62A00FB01DC /* CoreGraphicsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsHelper.h; sourceTree = "<group>"; };
+		1EAF30CE1C72B62A00FB01DC /* CoreGraphicsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsHelper.m; sourceTree = "<group>"; };
+		1EAF30D01C72B64C00FB01DC /* AppFormatters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFormatters.h; sourceTree = "<group>"; };
+		1EAF30D11C72B64C00FB01DC /* AppFormatters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFormatters.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAF309A1C72B52000FB01DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAF30941C72B52000FB01DC = {
+			isa = PBXGroup;
+			children = (
+				1EAF309F1C72B52000FB01DC /* SimpleChart */,
+				1EAF309E1C72B52000FB01DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAF309E1C72B52000FB01DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF309D1C72B52000FB01DC /* SimpleChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAF309F1C72B52000FB01DC /* SimpleChart */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF30D01C72B64C00FB01DC /* AppFormatters.h */,
+				1EAF30D11C72B64C00FB01DC /* AppFormatters.m */,
+				1EAF30CD1C72B62A00FB01DC /* CoreGraphicsHelper.h */,
+				1EAF30CE1C72B62A00FB01DC /* CoreGraphicsHelper.m */,
+				1EAF30BA1C72B5B600FB01DC /* DateHelper.h */,
+				1EAF30BB1C72B5B600FB01DC /* DateHelper.m */,
+				1EAF30BC1C72B5B600FB01DC /* DoubleChartPointValue.h */,
+				1EAF30BD1C72B5B600FB01DC /* DoubleChartPointValue.m */,
+				1EAF30BE1C72B5B600FB01DC /* SimpleBarChart.h */,
+				1EAF30BF1C72B5B600FB01DC /* SimpleBarChart.m */,
+				1EAF30C01C72B5B600FB01DC /* SimpleChart.h */,
+				1EAF30C11C72B5B600FB01DC /* SimpleChart.m */,
+				1EAF30C21C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.h */,
+				1EAF30C31C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.m */,
+				1EAF30C41C72B5B600FB01DC /* SimpleChartLabelProvider.h */,
+				1EAF30C51C72B5B600FB01DC /* SimpleChartPointValue.h */,
+				1EAF30C61C72B5B600FB01DC /* SimpleChartPointValue.m */,
+				1EAF30A31C72B52000FB01DC /* AppDelegate.h */,
+				1EAF30A41C72B52000FB01DC /* AppDelegate.m */,
+				1EAF30A61C72B52000FB01DC /* FirstViewController.h */,
+				1EAF30A71C72B52000FB01DC /* FirstViewController.m */,
+				1EAF30A91C72B52000FB01DC /* SecondViewController.h */,
+				1EAF30AA1C72B52000FB01DC /* SecondViewController.m */,
+				1EAF30AC1C72B52000FB01DC /* Main.storyboard */,
+				1EAF30AF1C72B52000FB01DC /* Assets.xcassets */,
+				1EAF30B11C72B52000FB01DC /* LaunchScreen.storyboard */,
+				1EAF30B41C72B52000FB01DC /* Info.plist */,
+				1EAF30A01C72B52000FB01DC /* Supporting Files */,
+			);
+			path = SimpleChart;
+			sourceTree = "<group>";
+		};
+		1EAF30A01C72B52000FB01DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF30A11C72B52000FB01DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAF309C1C72B52000FB01DC /* SimpleChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAF30B71C72B52000FB01DC /* Build configuration list for PBXNativeTarget "SimpleChart" */;
+			buildPhases = (
+				1EAF30991C72B52000FB01DC /* Sources */,
+				1EAF309A1C72B52000FB01DC /* Frameworks */,
+				1EAF309B1C72B52000FB01DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleChart;
+			productName = SimpleChart;
+			productReference = 1EAF309D1C72B52000FB01DC /* SimpleChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAF30951C72B52000FB01DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Raj;
+				TargetAttributes = {
+					1EAF309C1C72B52000FB01DC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EAF30981C72B52000FB01DC /* Build configuration list for PBXProject "SimpleChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EAF30941C72B52000FB01DC;
+			productRefGroup = 1EAF309E1C72B52000FB01DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAF309C1C72B52000FB01DC /* SimpleChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAF309B1C72B52000FB01DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAF30B31C72B52000FB01DC /* LaunchScreen.storyboard in Resources */,
+				1EAF30B01C72B52000FB01DC /* Assets.xcassets in Resources */,
+				1EAF30AE1C72B52000FB01DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAF30991C72B52000FB01DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAF30AB1C72B52000FB01DC /* SecondViewController.m in Sources */,
+				1EAF30C71C72B5B600FB01DC /* DateHelper.m in Sources */,
+				1EAF30CB1C72B5B600FB01DC /* SimpleChartCurrentValueOverlay.m in Sources */,
+				1EAF30A51C72B52000FB01DC /* AppDelegate.m in Sources */,
+				1EAF30A81C72B52000FB01DC /* FirstViewController.m in Sources */,
+				1EAF30CA1C72B5B600FB01DC /* SimpleChart.m in Sources */,
+				1EAF30C91C72B5B600FB01DC /* SimpleBarChart.m in Sources */,
+				1EAF30CC1C72B5B600FB01DC /* SimpleChartPointValue.m in Sources */,
+				1EAF30CF1C72B62A00FB01DC /* CoreGraphicsHelper.m in Sources */,
+				1EAF30C81C72B5B600FB01DC /* DoubleChartPointValue.m in Sources */,
+				1EAF30D21C72B64C00FB01DC /* AppFormatters.m in Sources */,
+				1EAF30A21C72B52000FB01DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EAF30AC1C72B52000FB01DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAF30AD1C72B52000FB01DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EAF30B11C72B52000FB01DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAF30B21C72B52000FB01DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAF30B51C72B52000FB01DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EAF30B61C72B52000FB01DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAF30B81C72B52000FB01DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajusa.SimpleChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EAF30B91C72B52000FB01DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajusa.SimpleChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAF30981C72B52000FB01DC /* Build configuration list for PBXProject "SimpleChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAF30B51C72B52000FB01DC /* Debug */,
+				1EAF30B61C72B52000FB01DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAF30B71C72B52000FB01DC /* Build configuration list for PBXNativeTarget "SimpleChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAF30B81C72B52000FB01DC /* Debug */,
+				1EAF30B91C72B52000FB01DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAF30951C72B52000FB01DC /* Project object */;
+}
